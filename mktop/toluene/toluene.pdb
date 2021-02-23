@@ -1,0 +1,25 @@
+HEADER    PROTEIN                                 13-SEP-17   NONE
+TITLE     NULL                                                        
+COMPND    NULL                                                        
+SOURCE    NULL                                                        
+KEYWDS    NULL                                                        
+EXPDTA    NULL                                                        
+AUTHOR    Marvin                                                      
+REVDAT   1   13-SEP-17         0                                  
+HETATM    1  C   UNK     0      -0.009  -0.016   0.008  0.00  0.00           C+0
+HETATM    2  C   UNK     0      -0.750  -1.299   0.006  0.00  0.00           C+0
+HETATM    3  C   UNK     0       1.406  -0.001  -0.001  0.00  0.00           C+0
+HETATM    4  C   UNK     0       2.110   1.218  -0.002  0.00  0.00           C+0
+HETATM    5  C   UNK     0       1.407   2.437  -0.001  0.00  0.00           C+0
+HETATM    6  C   UNK     0      -0.000   2.436  -0.002  0.00  0.00           C+0
+HETATM    7  C   UNK     0      -0.703   1.217  -0.001  0.00  0.00           C+0
+HETATM    8  H   UNK     0      -0.928  -1.608  -1.024  0.00  0.00           H+0
+HETATM    9  H   UNK     0      -1.711  -1.201   0.516  0.00  0.00           H+0
+HETATM   10  H   UNK     0      -0.185  -2.082   0.516  0.00  0.00           H+0
+HETATM   11  H   UNK     0       1.935  -0.875  -0.006  0.00  0.00           H+0
+HETATM   12  H   UNK     0       3.133   1.218  -0.002  0.00  0.00           H+0
+HETATM   13  H   UNK     0       1.918   3.322   0.001  0.00  0.00           H+0
+HETATM   14  H   UNK     0      -0.512   3.322  -0.002  0.00  0.00           H+0
+HETATM   15  H   UNK     0      -1.726   1.238  -0.006  0.00  0.00           H+0
+MASTER        0    0    0    0    0    0    0    0   15    0    0    0
+END
