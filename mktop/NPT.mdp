@@ -83,7 +83,7 @@ pcoupl                   = Parrinello-Rahman
 tau_p                    = 1.0
 compressibility          = 4.5e-6
 ;ref_p                    = 1.01325
-ref_p                    = 1.01325
+ref_p                    = 100
 
 ; We don't strictly need these, because it already has velocities
 ; that are at the right temperature.  But including this is safer.
