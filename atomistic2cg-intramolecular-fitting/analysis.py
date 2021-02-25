@@ -1,6 +1,11 @@
 from matplotlib import pyplot as plt
 import numpy as np
 
+numframes = 40
+numMono = 3
+numPoly = 100
+bonds = True
+
 def distance(vec1, vec2):
     dist = 0
     for i in range(0, len(vec1)):
@@ -69,11 +74,6 @@ def angDist(objArr):
 ##########################################################################################################################
 ##########################################################################################################################
 
-numframes = 300
-numMono = 6
-numPoly = 50
-bonds = True
-bonds = False
 
 
 polyList = []
@@ -131,6 +131,15 @@ if bonds == True:
     for i in range(0, len(histz[0])):
         histF.append([histz[1][i], histz[0][i]])
 
+    histF = np.array(histF)
+    np.savetxt('hist.xvg', histF)
+    plt.plot(histF[:,0], histF[:,1])
+    plt.ylabel('probability (distance)')
+    plt.xlabel('distance / nm')
+    plt.savefig('temp.png')
+    plt.show()
+
+
      
 else:
     bw = 1
@@ -144,12 +153,11 @@ else:
     for i in range(0, len(histz[0])):
         histF.append([histz[1][i], histz[0][i]])
 
-
-histF = np.array(histF)
-np.savetxt('hist.xvg', histF)
-plt.plot(histF[:,0], histF[:,1])
-plt.ylabel('probability (unnormalised with respect to sin(theta))')
-plt.xlabel('angle / degrees')
-plt.savefig('temp.png')
-plt.show()
+    histF = np.array(histF)
+    np.savetxt('hist.xvg', histF)
+    plt.plot(histF[:,0], histF[:,1])
+    plt.ylabel('probability (angle)')
+    plt.xlabel('angle / degrees')
+    plt.savefig('temp.png')
+    plt.show()
 
