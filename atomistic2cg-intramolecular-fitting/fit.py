@@ -7,8 +7,7 @@ from scipy import asarray as ar,exp
 import sys
 
 print('welcome')
-T = 400
-bonds = True
+T = 298
 bonds = False
 k = np.loadtxt('hist.xvg')
 
